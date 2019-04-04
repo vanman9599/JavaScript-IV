@@ -66,6 +66,8 @@ const john = new Instructor({
   });
   console.log(john);
   console.log(tom);
+  console.log(tom.speak());
+  console.log(john.speak());
 // #### Student
 
 // * Now we need some students!
